@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SwitchCamera : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class SwitchCamera : MonoBehaviour
                 //cameraList[currentCamera - 1].gameObject.SetActive(false);
                 currentCamera = 0;
                 cameraList[currentCamera].gameObject.SetActive(true);
-            }
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
 }
