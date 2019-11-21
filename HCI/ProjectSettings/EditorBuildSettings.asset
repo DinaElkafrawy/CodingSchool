@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Conditional.unity
     guid: a8a74412a52df9342b19ec0934ecb942
   - enabled: 1
+    path: Assets/Scenes/Iterative.unity
+    guid: 2f969105560f945c885ea245329af426
+  - enabled: 1
     path: Assets/Scenes/FinalLevel.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
