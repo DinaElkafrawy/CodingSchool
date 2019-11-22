@@ -35,7 +35,7 @@ public class FinalLevelBox : MonoBehaviour
         FinalLevelCube cube = other.gameObject.GetComponent<FinalLevelCube>();
 
         if (this.tag != other.gameObject.tag)
-            other.gameObject.GetComponent<Rigidbody>().AddForce(-0.1f, 0f, 0f);
+            other.gameObject.GetComponent<Rigidbody>().AddForce(-0.3f, 0f, 0f);
 
     }
 }
