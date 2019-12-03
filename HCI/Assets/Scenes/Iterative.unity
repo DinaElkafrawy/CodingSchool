@@ -2256,7 +2256,7 @@ MonoBehaviour:
   s4: {fileID: 7581017366189786226}
   click: {fileID: 8300000, guid: b5efccab3496b440280290f7b1e3b7f1, type: 3}
   destroy: {fileID: 8300000, guid: 26e28d0e99c624b51b26370fe8fdb509, type: 3}
-  next: {fileID: 0}
+  next: {fileID: 1648870007}
   s3: {fileID: 2064204323}
   s2: {fileID: 1783353435}
   s1: {fileID: 328284724}
